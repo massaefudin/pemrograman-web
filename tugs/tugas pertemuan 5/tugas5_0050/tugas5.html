@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style type="text/css">
+	body{
+		background-image: url(wood.jpg);
+		height: 100%;
+	}
+	.frame {
+		padding: 0px;
+		position: relative;
+		overflow: hidden;
+	}
+	.kopi:hover .caption{
+		opacity: 1;
+		transform: translateY(-100px);
+		-webkit-transform:translateY(-100px);
+		-moz-transform:translateY(-100px);
+		-ms-transform:translateY(-100px);
+		-o-transform:translateY(-100px);
+	}
+	.kopi .caption{
+		cursor: pointer;
+		position: absolute;
+		opacity: 0;
+		top: 100px;
+		-webkit-transition:all 0.50s ease-in-out;
+		-moz-transition:all 0.50s ease-in-out;
+		-o-transition:all 0.50s ease-in-out;
+		-ms-transition:all 0.50s ease-in-out;
+		transition:all 0.50s ease-in-out;
+	}
+	.kopi img{
+		width: 280px;
+		height: 250px;
+		margin: 0px;
+		padding: 0px;
+		float: left;
+		z-index: 4;
+	}	
+	.kopi .hover{
+		width: 280px;
+		height: 250px;
+		position: absolute;
+		background-color: rgba(255,255,255,0.7);
+		z-index: 5;
+	}
+	.triangle-right {
+		width: 0px;
+		height: 0px;
+		border-bottom: 60px solid white;
+		border-right: 60px solid transparent;
+		position: absolute;
+		bottom: 0;
+
+	}
+	
+	.triangle-right > span{
+		top: 30px;
+		position: absolute;
+	}
+	.kopi .text{
+		width: 280px;
+		height: 250px;
+		z-index: 10;
+		position: absolute;
+		top: 20px;
+		text-align: center;	
+	}
+	
+</style>
+
+</head>
+
+<body>
+
+<div class="frame">
+	<div class="kopi">
+		<img src="cappucino.jpg"> 
+		<div class="triangle-right">
+			<span>40k</span>
+		</div>
+		<div class="caption">
+			<div class="hover"></div>
+			<div class="text">this coffe good for you</div>	
+		</div>
+	</div>
+</div>
+	
+	
+</body>
+</html>

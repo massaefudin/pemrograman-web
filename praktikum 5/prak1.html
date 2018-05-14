@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	div.relative {
+		width: 200px;
+		height: 200px;
+		background-color: red;
+		position: relative;
+		left: 50px;
+		top: 50px;
+		transition: width  1s; 
+		
+	}
+	div{
+		width: 0px;
+		height: 0px;
+		border-bottom: 50px solid red;
+		border-right: 50px solid;
+	}
+	
+	div.relative:hover{
+		transform: skew( -20deg, 10deg);
+
+	}
+	
+
+	</style>
+</head>
+<body>
+
+<div class="relative"></div>	
+
+</body>
+</html>

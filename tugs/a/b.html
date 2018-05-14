@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+      background-image: url(contact-us.jpg);
+      font-family: Arial, Helvetica, sans-serif;
+      color: #FFF;
+    }
+    .judul{
+      text-align: center;
+
+    }
+    .top{
+      height: 5px;
+      width: 60px;
+      margin: 0 auto;
+      background-color: #005bbc;
+      border-radius: 2px; 
+    }
+    .if{
+      text-align: center;
+
+    }
+    .name{
+      background-color: white;
+      position: absolute;
+      margin-left: 94px;
+      width: 200px;
+      height: 30px;
+      border-radius: 6px;
+    }
+    .email{
+      background-color: white;
+      position: absolute;
+      margin-left: 334px;
+      width: 200px;
+      height: 30px;
+      border-radius: 6px;
+
+    }
+    .subject{
+      background-color: white;
+      position: absolute;
+      margin-left: 94px;
+      width: 440px;
+      height: 30px;
+      border-radius: 6px;
+      margin-top: 50px;
+    }
+    .pesan{
+      margin-left: 94px;
+      width: 440px;
+      border-radius: 6px;
+      margin-top: 100px;
+    }
+    .submit{
+      background-color: #005bbc;
+      margin-left: 94px;
+      border-color: transparent;
+      height: 30px;
+      border-radius: 6px;
+      width: 440px;
+      margin-top: 30px;
+    }
+    .circle{ 
+        width: 50px;
+        height: 50px;
+        background-color: #005bbc;
+        border-radius: 50%;
+    }
+    .img-icon {
+      margin: 10px;
+      height: 30px;
+      width: 30px;
+    }
+    .img-body {
+      float: left;
+      width: 10%;
+    }
+</style>
+</head>
+<body>
+  <h2 class="judul">Contact Us</h2>
+  <br>
+  <div class="top"></div>
+  <p class="if"> if you have any question, get in touch here </p>
+
+<div class="row">
+  <div class="column">
+    <form>
+    <input type="text" name="name" placeholder="name" class="name">
+    <input type="text" name="email" placeholder="email" class="email">
+    <input type="text" name="subject" placeholder="subject" class="subject">
+    <textarea type="text" name="" placeholder="your Message" class="pesan" rows="10" align="top" ></textarea>
+     <br>
+    <input type="submit" name="submit" placeholder="submit" class="submit">
+      </form>
+
+  </div>
+  
+  <div class="column">
+
+    <div class="body-location">
+      <div class="img-body">
+        <div class="circle">
+          <img src="rocket.png" class="img-icon">
+        </div>
+      </div>
+      <div class="text-body">
+        <h4>Our Location</h4>
+        <p>jl. palagan Tentara pelajar no.54</p>
+      </div>
+    </div>
+
+    <div class="body-location">
+      <div class="img-body">
+        <div class="circle">
+          <img src="phone.png" class="img-icon">
+        </div>
+      </div>
+      <div class="text-body">
+        <h4>CALL US ON</h4>
+        <p>(+62)822 3198 1009</p>
+      </div>
+    </div>
+
+    <div class="body-location">
+      <div class="img-body">
+        <div class="circle">
+          <img src="envelope.png" class="img-icon">
+        </div>
+      </div>
+      <div class="text-body">
+        <h4>SEND YOUR MESSAGE</h4>
+        <p>anna@amikom.ac.id</p>
+        <p>annatsir17@gmail.com</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

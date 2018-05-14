@@ -1,0 +1,87 @@
+div{
+		height: auto;
+		width: auto;
+		background-color: lightblue;
+	}
+
+	.bg{
+		width: 40%;
+		height: 800px;
+		background-color: pink;
+		float: left;
+
+	}
+	.bg1{
+		width: 60%;
+		height: 800px;
+		background-color: lightgreen;
+		float: right;
+	}
+.black{
+	width: 60%;
+		height: 200px;
+		background-color: black;
+
+
+}
+
+	.menu{
+		width: 60%;
+		height: 30px;
+		background-color: blue;
+		float: left;
+		margin-top: center;
+
+	}
+	.header{
+		padding: 10px 10px 10px;
+		background-color: purple;
+		clear:left;
+		padding-top: 
+	}
+	
+	.info{
+		width: 60%;
+		height: 200px;
+		background-color: lightblue;
+		float: right;
+		clear: right;
+
+	}
+	.image{
+		   background-color: orange;
+	    padding: 10px;
+	    text-align: center;
+	    clear: left;
+	    color: white;
+	    width: 90%;
+	    height: 100px;
+	}
+	{
+    box-sizing: border-box;
+}
+
+{
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    height: 200px; /* Should be removed. Only for demonstration */
+    
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+   
+}
+	
+	
+	
+	

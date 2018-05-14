@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tugas4_0050</title>
+	<style type="text/css">
+		body{
+			background-image: url(contact-us.jpg);
+		}
+		.judul{
+			text-align: center;
+
+		}
+		.top{
+			height: 5px;
+			width: 60px;
+			margin: 0 auto;
+			background-color: #005bbc;
+			border-radius: 2px; 
+		}
+		.if{
+			text-align: center;
+
+		}
+		.name{
+			background-color: white;
+			position: absolute;
+			margin-left: 94px;
+			width: 200px;
+			height: 30px;
+			border-radius: 6px;
+		}
+		.email{
+			background-color: white;
+			position: absolute;
+			margin-left: 334px;
+			width: 200px;
+			height: 30px;
+			border-radius: 6px;
+
+		}
+		.subject{
+			background-color: white;
+			position: absolute;
+			margin-left: 94px;
+			width: 440px;
+			height: 30px;
+			border-radius: 6px;
+			margin-top: 50px;
+		}
+		.pesan{
+			margin-left: 94px;
+			width: 440px;
+			border-radius: 6px;
+			margin-top: 100px;
+		}
+		.submit{
+			background-color: #005bbc;
+			margin-left: 94px;
+			border-color: transparent;
+			height: 30px;
+			border-radius: 6px;
+			width: 440px;
+			margin-top: 30px;
+		}
+		.circle{ 
+		    width: 50px;
+		    height: 50px;
+		    background-color: #005bbc;
+		    border-radius: 50%;
+		    float: left;
+		}
+		
+	.column{
+	    float: left;
+	    width: 50%;
+	    padding: 10px;
+	    height: 200px;
+	}
+		.row:after{
+	    content: "";
+	    display: table;
+	    clear: both;
+	}
+	</style>
+</head>
+<body>
+	<h2 class="judul"><font color="white">Contact Us</font></h2>
+	<br>
+	<div class="top"></div>
+	<p class="if"> <font color="white">if you have any question, get in touch here </font></p>
+	<div class="row">
+		<div class="column">
+
+			<form>
+		<input type="text" name="name" placeholder="name" class="name">
+		<input type="text" name="email" placeholder="email" class="email">
+		<input type="text" name="subject" placeholder="subject" class="subject">
+		<textarea type="text" name="" placeholder="your Message" class="pesan" rows="10" align="top" ></textarea>
+		 <br>
+		<input type="submit" name="submit" placeholder="submit" class="submit">
+			</form>
+		</div>
+
+		<div class="column">
+			<div><img src="rocket.png" width="3" height="3" class="circle"></div>
+			<div><img src="phone.png"  width="3" height="3" class="circle"></div>
+			<div><img src="envelope.png" class="circle"  width="3" height="3"></div>	
+		</div>
+		
+	</div>
+
+
+	
+	
+<!-- 
+	<input type="text" name="email" placeholder="email" class="email">
+
+	
+	<textarea type="text" name="" placeholder="your Message" class="pesan" rows="10" align="top" ></textarea> -->
+	
+
+</body>
+</html>
